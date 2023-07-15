@@ -137,7 +137,7 @@ body {
     margin-top: 120px;
      display: grid;
     grid-template-columns: repeat(3, 1fr); 
-     margin-left: 100px; 
+     margin-left: 120px; 
     margin-right: 100px;
     height: 70vh;
 }
@@ -200,7 +200,7 @@ body {
     display: flex;
 
     height: 100vh;
-    margin-top: 120px;
+     margin-top: 120px; 
     margin-left: 100px;
     margin-right: 200px;
     gap: 100px;
@@ -379,7 +379,7 @@ footer {
 
     .about2 {
         flex-direction: column-reverse;
-         margin-top: 180px; 
+         margin-top: 220px; 
          margin-left: 100px;
     }
 
@@ -404,7 +404,7 @@ footer {
         align-items: center;
         margin-top: 200px;
         margin-left: 100px;
-        margin-right: 100px;
+        margin-right: 120px;
     }
 
     .explore {
