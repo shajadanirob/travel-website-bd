@@ -322,6 +322,7 @@ footer {
     .about-title {
         padding: 15px;
         margin-bottom: 120px;
+        margin-left: 75px;
         /* margin-right: 40px; */
     }
 
@@ -331,24 +332,42 @@ footer {
     }
 
     .about-p {
-        padding: 5px;
-        width: 300%;
+        /* padding: 5px;
+        width: 300%; */
+        text-align: center;
+         
+        /* width: 100%;  */
+        /* padding: 80px; */
+          width: 200%; 
     }
 
     .about-h1 {
-        padding: 5px;
-        width: 300%;
+        /* padding: 5px;
+        width: 300%; */
+        text-align: center;
+         
+        /* width: 100%;  */
+        /* padding: 80px; */
+          width: 200%; 
      
     }
    .btn2{
     margin-top: 10px;
+   align-items: center;
+   width: 200%; 
+   padding-left: 30px;
+   text-align: center;
+   border-radius: 15px;
 
    }
     
 
     .east {
-        padding: 5px;
-        /* width: 200%; */
+        text-align: center;
+         
+         /* width: 100%;  */
+         /* padding: 80px; */
+           width: 200%; *
     }
 
     .about {
@@ -395,7 +414,7 @@ footer {
 
     .about-title2 {
         padding: 15px;
-        margin-left: 100px;
+        margin-left: 155px;
        
     }
 
@@ -427,7 +446,8 @@ footer {
 
     .btn4 {
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 50px;
+        width: 50%; 
     }
     .about-h1{
         padding: 5px;
