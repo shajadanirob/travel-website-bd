@@ -137,7 +137,7 @@ body {
     margin-top: 120px;
      display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    margin-left: 100px;
+     margin-left: 100px; 
     margin-right: 100px;
     height: 70vh;
 }
@@ -213,6 +213,8 @@ body {
 
 .about-title2 {
     padding-left: 100px;
+    margin-right: 100px;
+    
 }
 
 /* end girl */
@@ -246,6 +248,7 @@ footer {
     color: black;
     border-radius: 10px;
     margin-top: 10px;
+  
 }
 
 #email {
@@ -315,6 +318,7 @@ footer {
     }
 
     /* about */
+
     .about-title {
         padding: 15px;
         margin-bottom: 120px;
@@ -327,13 +331,14 @@ footer {
     }
 
     .about-p {
-       width: 200%;
         padding: 5px;
+        width: 300%;
     }
 
     .about-h1 {
         padding: 5px;
-      width: 200%; 
+        width: 300%;
+     
     }
 
     
@@ -352,7 +357,8 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
         padding-top: 10px;
-        padding-right: 300px;
+        margin-left: 50px;
+        margin-right: 50px;
     
         
         
@@ -379,7 +385,9 @@ footer {
 
     .about-img2 {
         width: 300%;
-        margin-left: 50px;
+        margin-right: 50px;
+       
+    
     }
 
     .about-title2 {
@@ -416,7 +424,7 @@ footer {
 
     .btn4 {
         margin-top: 10px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
     .about-h1{
         padding: 5px;
