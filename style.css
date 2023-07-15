@@ -138,7 +138,7 @@ body {
      display: grid;
     grid-template-columns: repeat(3, 1fr); 
      margin-left: 100px; 
-    margin-right: 120px;
+    margin-right: 100px;
     height: 70vh;
 }
 
@@ -340,7 +340,10 @@ footer {
         width: 300%;
      
     }
+   .btn2{
+    margin-top: 10px;
 
+   }
     
 
     .east {
@@ -357,12 +360,10 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
         padding-top: 10px;
-        margin-left: 50px;
+        margin-left: 70px;
         margin-right: 50px;
-    
-        
-        
     }
+
     .text-img{
         margin-right: 300px;
     }
@@ -373,8 +374,8 @@ footer {
     }
 
     .btn3 {
-        margin-left: 200px;
-        margin-top: 800px;
+        margin-left: 120px;
+        margin-top: 900px;
     }
 
     .about2 {
@@ -403,8 +404,8 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         margin-top: 200px;
-        margin-left: 120px;
-        margin-right: 100px;
+        margin-left: 70px;
+        margin-right: 50px;
     }
 
     .explore {
