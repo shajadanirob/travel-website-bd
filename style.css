@@ -21,7 +21,7 @@ body {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(images/Background.png);
     height: 100vh;
     width: 100%;
-    position: relative;
+    /* position: relative; */
     background-size: cover;
     background-position: bottom center;
 }
@@ -114,6 +114,7 @@ body {
 
 .about-title {
     padding-left: 300px;
+    margin-right: 100px;
 }
 
 .about-header {
@@ -128,13 +129,14 @@ body {
     color: #fff;
     margin-top: 20px;
     display: flex;
+
 }
 
 /* start popular */
 .popular-section {
     margin-top: 120px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+     display: grid;
+    grid-template-columns: repeat(3, 1fr); 
     margin-left: 100px;
     margin-right: 100px;
     height: 70vh;
@@ -229,29 +231,35 @@ footer {
 
 }
 
-.explore{
+.explore {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 120px;
     margin-left: 200px;
     margin-right: 200px;
 }
-.btn4{
+
+.btn4 {
     padding: 10px 35px;
     background-color: #ffa343;
     border: none;
     color: black;
     border-radius: 10px;
-}
-#email{
-    padding: 10px 90px;
-    background-color:rgb(38, 36, 36);
-    border: none;
-}
-.explore-p{
     margin-top: 10px;
 }
-.explore-h1{
+
+#email {
+    padding: 10px 90px;
+    background-color: rgb(38, 36, 36);
+    border: none;
+    width: 100px;
+}
+
+.explore-p {
+    margin-top: 10px;
+}
+
+.explore-h1 {
     font-size: 40px;
 }
 
@@ -276,11 +284,11 @@ footer {
 
 @media screen and (max-width:576px) {
     body {
-        width: 100%;
+     width: 100%; *
     }
 
     .banner {
-        width: 100%;
+        width: 120%;
         height: 100vh;
     }
 
@@ -290,28 +298,50 @@ footer {
 
     .banner-title {
         width: 100%;
+        padding-top: 200px;
     }
 
     .btn {
-        margin-left: 200px;
+        margin-left: 150px;
+
     }
 
     /* tour */
 
     .boxs {
         grid-template-columns: repeat(2, 1fr);
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     /* about */
     .about-title {
         padding: 15px;
         margin-bottom: 120px;
+        /* margin-right: 40px; */
     }
 
     .about-img {
-        width: 100%;
+        width: 250px;
+        margin-left: 40px;
     }
 
+    .about-p {
+       width: 200%;
+        padding: 5px;
+    }
+
+    .about-h1 {
+        padding: 5px;
+      width: 200%; 
+    }
+
+    
+
+    .east {
+        padding: 5px;
+        /* width: 200%; */
+    }
 
     .about {
         flex-direction: column;
@@ -322,32 +352,43 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
         padding-top: 10px;
+        padding-right: 300px;
+    
+        
+        
+    }
+    .text-img{
+        margin-right: 300px;
     }
 
     .Popular-header {
         padding-top: 400px;
+       margin-left: 20px; 
     }
 
     .btn3 {
         margin-left: 200px;
-        margin-top: 900px;
+        margin-top: 800px;
     }
 
     .about2 {
         flex-direction: column-reverse;
-        margin-top: 400px;
-        margin-right: 100px;
+         margin-top: 180px; 
+         margin-left: 100px;
     }
 
     .about-img2 {
-        width: 100%;
+        width: 300%;
+        margin-left: 50px;
     }
 
     .about-title2 {
         padding: 15px;
+        margin-left: 100px;
+       
     }
 
-
+   
 
 
     .footer {
@@ -357,20 +398,28 @@ footer {
         margin-left: 100px;
         margin-right: 100px;
     }
-    .explore{
-        grid-template-columns: repeat(1,1fr);
+
+    .explore {
+        grid-template-columns: repeat(1, 1fr);
         margin-left: 100px;
         margin-right: 100px;
     }
-    .explore-p{
+
+    .explore-p {
         margin-top: 10px;
         color: grey;
     }
-    .input{
+
+    .input {
         margin-top: 10px;
     }
-    .btn4{
+
+    .btn4 {
         margin-top: 10px;
         margin-left: 50px;
+    }
+    .about-h1{
+        padding: 5px;
+        /* width: 200%; */
     }
 }
